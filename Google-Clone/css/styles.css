@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+.b-links {
+  color: #70757a;
+  font-family: sans-serif;
+}
+
+.bottom-container {
+  width: 100%;
+  height: 80px;
+  background-color: #F2F2F2;
+  position: relative;
+  top: 363px;
+}
+
+.top-container {
+  width: 100%;
+  height: 70px;
+}
+
+.top-content {
+  width: 20%;
+  height: 100%;
+  float: right;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+}
+
+.top-links {
+  position: absolute;
+  right: 25px;
+  top: 7px;
+}
+
+.middle-container {
+  width: 100%;
+  text-align: center;
+}
+
+.middle-content {
+  position: relative;
+  top: 100px;
+}
+
+a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #212121;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mail-img {
+  position: relative;
+  top: 9px;
+  border-radius: 100%;
+}
+
+.apps-img {
+  position: relative;
+  top: 7px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+#search-bar {
+  width: 33%;
+  height: 40px;
+  font-size: 16px;
+  line-height: 34px;
+  font: 16px arial, sans-serif;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #E3E5E8;
+  border-radius: 40px;
+  padding-left: 37px;
+  position: relative;
+  top: 30px;
+  margin-left: 10px;
+  caret-color: #9AA0A6;
+}
+
+.mic-icon {
+  width: 27px;
+  height: 22px;
+  position: relative;
+  top: 35px;
+  right: 44px;
+}
+
+.search-bar:hover {
+  box-shadow: 1px 1px 1px 1px #dddddd;
+}
+
+.search-icon {
+  position: absolute;
+  width: 25px;
+  height: 18px;
+  top: 132px;
+  left: 515px;
+}
+
+.s-btns {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  top: 50px;
+}
+
+.offered-in {
+  font-size: 0.9rem;
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.offer-lang {
+  color: blue;
+  font-size:0.8rem;
+}
+
+.settings {
+  position: absolute;
+  left: 10px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JS-Clock</title>
+  <style type="text/css">
+    #clock {
+      font-size: 200%;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+    <div id="clock">HH:MM:SS</div>
+    <script type="text/javascript">
+    setInterval(func,1000);
+    function func(){
+    let time = new Date()
+    let hours = time.getHours();
+    let minutes = time.getMinutes();
+    let seconds = time.getSeconds();
+    let am_pm = "am";
+
+    if(hours > 12)
+    {
+      hours = hours-12;
+      am_pm = "pm";
+    }
+
+
+    hours = hours < 10 ? "0" + hours : hours; 
+    minutes = minutes < 10 ? "0" + minutes : minutes; 
+    seconds = seconds < 10 ? "0" + seconds : seconds; 
+
+    cur_time = hours + ":" + minutes + ":" + seconds + am_pm;
+
+    document.getElementById("clock").innerHTML = cur_time;
+  }
+  </script>
+</body>
+
+</html>
